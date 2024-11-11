@@ -22,6 +22,7 @@
   "workspaceFolder": "/home/Wdev/workspace",
   "workspaceMount": "source=${localWorkspaceFolder}/../,target=/home/Wdev/workspace,type=bind,consistency=cached",
   "mounts": [
-		"source=${localWorkspaceFolder}/.vscode,target=/home/Wdev/workspace/.vscode,type=bind,consistency=cached"
+		"source=${localWorkspaceFolder}/.vscode,target=/home/Wdev/workspace/.vscode,type=bind,consistency=cached",
+    "source=${localWorkspaceFolder}/.vscode/keybindings.json,target=/home/Wdev/.config/Code/User/keybindings.json,type=bind,consistency=cached"
 	]
 }
