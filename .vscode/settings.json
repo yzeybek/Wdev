@@ -15,7 +15,6 @@
 	"json.schemaDownload.enable": false,
 	"extensions.ignoreRecommendations":false,
 	"files.exclude": {
-        "Wdev": true,
-		".vscode":true,
-    }
+		"Wdev": true
+	}
 }
