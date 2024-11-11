@@ -13,5 +13,9 @@
 	"files.insertFinalNewline": true,
 	"files.trimTrailingWhitespace": true,
 	"json.schemaDownload.enable": false,
-	"extensions.ignoreRecommendations":false
+	"extensions.ignoreRecommendations":false,
+	"files.exclude": {
+        "Wdev": true,
+		".vscode":true,
+    }
 }

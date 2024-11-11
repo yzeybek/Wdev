@@ -20,7 +20,9 @@ RUN apt-get install -y \
 	&& apt-get clean autoclean \
     && apt-get autoremove --yes
 
-RUN useradd -ms /bin/bash Wdev && chsh -s /bin/bash Wdev && echo "Wdev ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers && mkdir -p /home/Wdev/workspace && chown -R Wdev:Wdev /home/Wdev/workspace
+RUN useradd -ms /bin/bash Wdev && chsh -s /bin/bash Wdev && echo "Wdev ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
+
+RUN mkdir -p /home/Wdev/workspace && chown -R Wdev:Wdev /home/Wdev
 
 USER Wdev
 
