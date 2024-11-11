@@ -1,0 +1,23 @@
+{
+	"name": "Wdev",
+	"build": {
+		"dockerfile":"Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools",
+				"dokca.42-ft-count-line",
+				"evilcat.norminette-42",
+				"gruntfuggly.todo-tree",
+				"kube.42header",
+				"ms-vscode.makefile-tools",
+				"mariusvanwijk-joppekoers.codam-norminette-3",
+				"keyhr.42-c-format"
+			]
+		}
+	},
+	"remoteUser": "Wdev",
+	"workspaceFolder": "/home/Wdev/workspace",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/home/Wdev/workspace,type=bind,consistency=cached"
+}

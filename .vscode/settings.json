@@ -1,0 +1,17 @@
+{
+	"42header.email": "",
+	"42header.username": "",
+
+	"workbench.colorTheme": "Default Light Modern",
+	"files.autoSave": "afterDelay",
+	"editor.insertSpaces": false,
+	"editor.renderWhitespace": "all",
+	"makefile.configureOnOpen": true,
+	"[c]": {
+		"editor.defaultFormatter": "keyhr.42-c-format"
+	},
+	"files.insertFinalNewline": true,
+	"files.trimTrailingWhitespace": true,
+	"json.schemaDownload.enable": false,
+	"extensions.ignoreRecommendations":false
+}
