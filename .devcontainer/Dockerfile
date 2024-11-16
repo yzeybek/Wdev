@@ -17,6 +17,7 @@ RUN apt-get install -y \
 	python3-pip \
 	pipx \
 	sudo \
+	vim \
 	&& apt-get clean autoclean \
     && apt-get autoremove --yes
 
