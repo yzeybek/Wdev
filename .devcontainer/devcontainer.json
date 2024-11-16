@@ -18,10 +18,10 @@
       ]
     }
   },
-  "remoteUser": "Wdev",
-  "workspaceFolder": "/home/Wdev/workspace",
-  "workspaceMount": "source=${localWorkspaceFolder}/../,target=/home/Wdev/workspace,type=bind,consistency=cached",
+  "workspaceMount": "source=${localWorkspaceFolder}/../,target=${containerWorkspaceFolder},type=bind,consistency=cached",
   "mounts": [
-		"source=${localWorkspaceFolder}/.vscode,target=/home/Wdev/workspace/.vscode,type=bind,consistency=cached"
+		"source=${localWorkspaceFolder}/.vscode,target=${containerWorkspaceFolder}/.vscode,type=bind,consistency=cached",
+    "source=${env:HOME}/.bashrc,target=/root/.bashrc,type=bind,consistency=cached",
+    "source=${env:HOME}/.ssh,target=/root/.ssh,type=bind,consistency=cached"
   ]
 }
